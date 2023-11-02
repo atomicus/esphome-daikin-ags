@@ -74,7 +74,7 @@ namespace esphome
       data->mark(DAIKIN_AGS_FOOTER_MARK);
       data->space(0);
       // Uncomment follwing line and change pin number to a pin corresponding to your receiver data signal
-      // This will disable receiver for time of transmission. Usefull if your HW rec. diode sees transmit one.
+      // This will disable receiver for time of transmission. Usefull if your HW rec. Diode sees transmit one.
       // pinMode(4, OUTPUT);
       transmit.perform();
       // pinMode(4, INPUT_PULLUP);
