@@ -24,6 +24,8 @@ external_components:
     components: [daikin_ags]
 ```
 
+2. Setup climate controller
+
 Define climate device by setting it as in example:
 
 ```yaml
