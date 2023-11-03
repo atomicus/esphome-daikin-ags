@@ -8,7 +8,7 @@ A external ESPHome climate component for Daikin AGS remote compatible Air Condit
 
 Just follow instructions at [https://esphome.io/components/external_components](https://esphome.io/components/external_components).
 
-Or see [example_component.taml](example).
+Or see [example](./example_component.yaml).
 
 **Longer version**
 
