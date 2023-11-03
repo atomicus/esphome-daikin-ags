@@ -1,0 +1,24 @@
+substitutions:
+  deviceName: mainnode
+
+esphome:
+  name: NodeMCUDevice
+  platform: ESP8266
+  board: nodemcuv2
+
+external_components:
+  - source:
+      type: git
+      url: https://github.com/atomicus/esphome-daikin-ags
+    components: [daikin_ags]
+
+climate:
+  - platform: daikin_ags
+    name: "Living Room AC"
+
+remote_transmitter:
+  pin:
+    number: D0
+    inverted: False
+    mode: OUTPUT
+  carrier_duty_percent: 50%
